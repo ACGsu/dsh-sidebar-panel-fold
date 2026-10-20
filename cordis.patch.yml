@@ -1,0 +1,5 @@
+# Insert the Host half; the same package's dsh.client Web half is picked up by
+# the client module graph automatically.
+- insert:
+    - id: dsh-sidebar-panel-fold
+      name: dsh-sidebar-panel-fold
