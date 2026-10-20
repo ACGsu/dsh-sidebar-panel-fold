@@ -80,11 +80,7 @@
 本插件是一个标准的 DSH bundle 包，声明了 `dsh.bundle.patch`，装进 profile 后会被自动加入 `dsh.profile.bundles`，**无需手工改任何配置**。
 
 ```powershell
-# 1. 把本仓库放到任意目录，记下绝对路径
-# 2. 用 file: 协议装进 profile（推荐）
-dsh plugin --profile desktop add "file:<本仓库的绝对路径>"
-
-# 3. 完整退出并重启 DeepSeek Harness
+dsh plugin --profile web add github:ACGsu/dsh-sidebar-panel-fold
 ```
 
 ### 2.1 从本地目录安装
